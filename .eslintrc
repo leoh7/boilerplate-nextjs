@@ -2,7 +2,8 @@
   "extends": [
     "airbnb-base",
     "next/core-web-vitals", // Needed to avoid warning in next.js build: 'The Next.js plugin was not detected in your ESLint configuration'
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
   ],
   "rules": {
     "prettier/prettier": [
@@ -10,6 +11,13 @@
       {
         "singleQuote": true,
         "endOfLine": "auto"
+      }
+    ],
+    "react/jsx-curly-brace-presence": [
+      "error",
+      {
+        "props": "never",
+        "children": "never"
       }
     ]
   },

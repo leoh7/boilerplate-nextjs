@@ -1,4 +1,4 @@
-{
+module.exports = {
   "extends": [
     "airbnb-base",
     "next/core-web-vitals", // Needed to avoid warning in next.js build: 'The Next.js plugin was not detected in your ESLint configuration'

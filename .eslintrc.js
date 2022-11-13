@@ -20,8 +20,15 @@ module.exports = {
         "children": "never"
       }
     ],
-    "import/no-extraneous-dependencies": [
-      "error",
+    'react/jsx-boolean-value': [
+      'error',
+      'never',
+      {
+        always: [],
+      },
+    ],
+    'import/no-extraneous-dependencies': [
+      'error',
       {
         "devDependencies": true
       }

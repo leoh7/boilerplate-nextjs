@@ -33,6 +33,7 @@ module.exports = {
         devDependencies: true,
       },
     ],
+    'no-nested-ternary': 'off',
   },
   overrides: [
     // Configuration for TypeScript files
